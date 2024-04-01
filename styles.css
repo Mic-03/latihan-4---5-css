@@ -1,0 +1,31 @@
+/* Mengubah <h1> agar memiliki font Verdana, 2 ems, dengan warna #DE101D */
+h1 {
+    font-family: Verdana, sans-serif;
+    font-size: 2em;
+    color: #DE101D;
+  }
+  
+  /* Mengubah <p> agar memiliki ukuran font 14px dengan warna #850F16, font yang dipakai adalah Garamond, jika tidak ada tampilkan Times New Roman, jika tidak ada maka tampilkan serif */
+  p {
+    font-size: 14px;
+    color: #850F16;
+    font-family: Garamond, Times New Roman, serif;
+  }
+  
+  /* Mengubah tag <img> agar memiliki border 2px solid bewarna black */
+  img {
+    border: 2px solid black;
+  }
+  
+  /* Mengubah agar tag <div> memiliki warna background #DB5B0B, border 2px solid #8F3C09 */
+  div {
+    background-color: #DB5B0B;
+    border: 2px solid #8F3C09;
+  }
+  
+  /* Mengubah agar tag <a> tidak memiliki garis bawah, dan bewarna putih */
+  a {
+    text-decoration: none;
+    color: white;
+  }
+  

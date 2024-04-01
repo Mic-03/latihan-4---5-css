@@ -1,0 +1,25 @@
+/* CSS untuk gaya tampilan tabel */
+#myTable {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid black; /* Border luar tabel */
+  }
+  
+  #myTable th, #myTable td {
+    height: 50px;
+    border: 1px dashed blue; /* Border setiap sel */
+  }
+  
+  #myTable tr {
+    background-color: lightcoral; /* Background setiap baris */
+  }
+  
+  #myTable th {
+    background-color: lightpink; /* Background header */
+  }
+  
+  #myTable th, #myTable td {
+    padding: 8px;
+    text-align: left;
+  }
+  
